@@ -7,7 +7,6 @@ API_KEY = '9d7fece5e2454a6d895151548232505'
 
 def search(place: str):
     url = BASE_URL + 'search.json?' + f'key={API_KEY}' + f'&q={place}'
-    print(url)
 
     response = requests.get(url)
 
