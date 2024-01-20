@@ -1,0 +1,4 @@
+.idea
+.venv
+weather-cli.iml
+__pycache__
