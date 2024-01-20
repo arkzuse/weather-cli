@@ -10,6 +10,9 @@ def search(place: str):
 
     response = requests.get(url)
 
+    if response.status_code != 200:
+        return []
+
     return json.loads(response.text)
 
 

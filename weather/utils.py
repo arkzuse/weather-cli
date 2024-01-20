@@ -3,4 +3,8 @@ def make_name(obj):
 
 
 def get_default_location():
-    pass
+    return ''
+
+
+def set_default_location(place):
+    return ''
